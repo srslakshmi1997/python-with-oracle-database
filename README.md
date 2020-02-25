@@ -17,7 +17,7 @@ The python code will :
 1. Read the data present in the excel sheet.
 2. Connect with the targetted Oracle database using the username password provided.
 3. Create a table in the database.
-4. Insert all the records present in the excel sheet.  
+4. Insert all the records present in the excel sheet.
 5.Commit and close the connection with the database.
 
 
