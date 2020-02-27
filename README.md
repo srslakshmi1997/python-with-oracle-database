@@ -1,24 +1,26 @@
 # python-with-oracle-database
-Create an Oracle database and insert the data present in an excel sheet using python libraries
+This application creates an Oracle database and inserts the data present in an excel sheet using python libraries.
 
-This code creates an Oracle table "inventory_table" and inserts the data that are availabe in the excel sheet "Inventory_Data" to the table with the help of SQL queries.
+An Oracle table "inventory_table" is created and the data that are available in the excel sheet"Inventory_Data" are inserted to the table with the help of SQL queries.
 
 **Oracle Version :** Oracle 10g experss edition (10.2.1015)        
 **Python Packages :** cx_Oracle (version 7.3.0),xlrd (version 1.2.0)         
-				  
+                  
 **Package Description:**       
-The *xlrd* package wil be helpful in reading the exel sheet that contains the data.          
-*cx_Oracle* package will be helpful in establishing the conection with Oracle database installed. With this package we will be able to execute all the SQL queries, write the excel data to the database.      
+The *xlrd* package will help read the excel sheet that contains the data.          
+*cx_Oracle* package will help establish the connection with the Oracle database installed. With this package, all the SQL queries are executed and can write the excel data to the database.      
 
-Make sure the oracle database is installed in your local machine.       
-Please make note of the user name and password to connect to the database.     
-The excel sheet should have the data that needs to be inserted to the database.       
-The python code will :       
-1. Read the data present in the excel sheet.
-2. Connect with the targetted Oracle database using the username password provided.
-3. Create a table in the database.
-4. Insert all the records present in the excel sheet.
-5. Commit and close the connection with the database.
+**Pre-requisites:**
+Oracle database is installed in the local machine.          
+User name and password to connect to the database.         
+An Excel sheet with the data that needs to be inserted into the database.            
+
+**Application Logic:**          
+1. Reads the data present in the excel sheet.
+2. Connects with the targetted Oracle database using the username password provided.
+3. Creates a table in the database.
+4. Inserts all the records present in the excel sheet.
+5. Commits and closes the connection with the database.
 
 
 
