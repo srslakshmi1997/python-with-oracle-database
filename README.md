@@ -10,7 +10,7 @@ An Oracle table "inventory_table" is created and the data that are available in 
 The *xlrd* package will help read the excel sheet that contains the data.          
 *cx_Oracle* package will help establish the connection with the Oracle database installed. With this package, all the SQL queries are executed and can write the excel data to the database.      
 
-**Pre-requisites:**
+**Pre-requisites:**       
 Oracle database is installed in the local machine.          
 User name and password to connect to the database.         
 An Excel sheet with the data that needs to be inserted into the database.            
