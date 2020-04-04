@@ -9,7 +9,7 @@ sheet = book.sheet_by_name("firstsheet")
 
 # Establish a MySQL connection
 #use username/password@localhostip to create a connection
-connection=cx_Oracle.connect('santhu/santhu97@127.0.0.1/')
+connection=cx_Oracle.connect('username/password@127.0.0.1/')
 
 # Get the cursor, which is used to traverse the database, line by line
 cursor = connection.cursor()
